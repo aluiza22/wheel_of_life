@@ -1,23 +1,26 @@
-import logo from './logo.svg';
+import wheel from './wheel.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <img src={wheel} className="App-logo" alt="logo" />
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Wheel of life
         </a>
       </header>
+      <main>
+    
+      </main>
+      <footer>
+        <p>Project by <a href="https://anadev.com.br">anadev.com.br</a></p>
+      </footer>
     </div>
   );
 }
