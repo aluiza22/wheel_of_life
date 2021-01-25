@@ -1,8 +1,8 @@
-# Getting Started with Create React App
+# Wheel of life 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Side project developed to help me structure my routine taking into acount what is important to me and what I want for my life. And also improve my React skills.
 
 In the project directory, you can run:
 
