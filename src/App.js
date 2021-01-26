@@ -1,5 +1,6 @@
 import wheel from './wheel.svg';
 import './App.css';
+import WheelPage from './pages/wheel';
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
         </a>
       </header>
       <main>
-    
+        <WheelPage />
       </main>
       <footer>
         <p>Project by <a href="https://anadev.com.br">anadev.com.br</a></p>

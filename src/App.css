@@ -56,3 +56,62 @@
 
 footer p {margin: 3vmin; font-size: 2vmin; color: var(--light);}
 footer p a {color: var(--accent);}
+
+/* WheelPage */
+#WheelPage {
+  text-align: center;
+	display: flex; 
+	flex-direction:row;
+	justify-content:space-around;
+	align-items:center;
+	max-width: 600px;
+	margin:0 auto;
+}
+#wheel {
+	--items: counter(input);
+	width: 200px;
+	width: 20vw;
+	height: 200px;
+	height: 20vw;
+	border-radius:50%;
+	border: 1px solid #000;
+	overflow: hidden;
+	position:relative;
+	margin: 20px;
+}
+#WheelPage form {max-width: 200px; margin: 0 auto; counter-reset: input;}
+#WheelPage form div {margin: 10px 0 0; }
+#WheelPage form div:before {
+    counter-increment: input;
+    content: counter(input);
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid;
+    padding: 3px;
+    font-size: 10px;
+	  line-height: 10px;
+    margin: -4px 0 4px 0;
+    display: inline-block;
+}
+#WheelPage form input {width:100%; border-width: 0 0 2px 0; outline:none; background:none; color: var(--light);
+  padding: 3px 3px 3px 26px; margin:0;
+}
+.optional {opacity:50%;}
+
+.part {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	clip: rect(0, 10vw, 20vw, 0);
+}
+#part-2 {transform: rotate(calc(360deg/2));}
+
+#WheelPage form .color-1 { color:purple;}
+#WheelPage form .color-2 {color:turquoise;}
+#WheelPage form .color-3 {color:green;}
+#wheel .color-1 {background: purple; }
+#wheel  .color-2 {background: turquoise;}
+#wheel  .color-3 {background: green;}
